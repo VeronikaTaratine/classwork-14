@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* .content-wrap{
+  background: url("./assets/images/forest-5855196_640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.video{
+  max-width: 400px;
+}
+
+.iframe-wrap{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.iframe-mobile{
+  height: 700px;
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.p-wrap{
+  border: 3px solid tomato;
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: baseline;
+}
+
+.box{
+  padding: 105px;
+  background: blue;
+  color: white;
+  border: 1px solid black;
+} */
+
+.page-wrap {
+  position: relative;
+  min-height: 100vh;
+}
+.video-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.page-front {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+}
+
+.page-content {
+  max-width: 500px;
+  /* backdrop-filter: blur(30px); */
+  padding: 62px;
+  color: var(--black-brown);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.header {
+  background-color: var(--black-light);
+}
+
+.nav-wrap {
+  list-style: none;
+  position: relative;
+}
+
+.container-menu:hover .nav-nested-wrap {
+  display: block;
+}
+
+.link {
+  color: var(--white);
+  text-decoration: none;
+  padding: 20px 20px;
+  cursor: pointer;
+}
+
+.link:hover {
+  background-color: var(--blue);
+}
+
+.menu {
+  color: var(--white);
+  text-decoration: none;
+  padding: 20px 20px;
+  cursor: pointer;
+}
+
+.menu:hover {
+  background-color: var(--blue);
+}
+
+.nav-nested-wrap {
+  position: absolute;
+  background: var(--blue);
+  padding: 25px;
+  z-index: 1000;
+  width: 95px;
+  top: 58px;
+  left: 55px;
+  display: none;
+}
+
+.nav-nested-item {
+  width: 95px;
+  padding: 20px;
+  background: var(--blue);
+  cursor: pointer;
+}
+
+.nav-nested-item:hover {
+  background-color: var(--white);
+}

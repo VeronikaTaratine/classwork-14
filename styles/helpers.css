@@ -1,0 +1,80 @@
+:root {
+  --fs-lg: 20px;
+  --fs-normal: 16px;
+  --fs-sm: 14px;
+  --fs-exsm: 12px;
+  --fs-h1: 55px;
+  --fs-h4: 24px;
+  --fs-h5: 21px;
+  --fs-h6: 18px;
+  --fs-h6-sm: 16px;
+  --lh-lg: 36px;
+  --container-wids: 1100px;
+  --container-space: 25px;
+  --black-light:#252525;
+  --black-brown:#2c2626;
+  --white:#ffffff;
+  --blue:#2196f3;
+
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto";
+  background-color: white;
+}
+
+.container {
+  max-width: calc (var (--container-width) + var(--container-space) * 2);
+  padding: 0 var(--container-space);
+  width: 100%;
+  margin: 0 auto;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+/* flex utiliy */
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.grow-1 {
+  flex-grow: 1;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-25 {
+  gap: 25px;
+}
